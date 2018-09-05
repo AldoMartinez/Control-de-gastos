@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Compra" representedClassName="Compra" syncable="YES">
+        <attribute name="fecha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moneda" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="precio" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="precioOriginal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="ExchangeRate" representedClassName="ExchangeRate" syncable="YES">
+        <attribute name="change" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Producto" representedClassName="Producto" syncable="YES">
+        <attribute name="idProducto" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="marca" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tiendas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tiendas" inverseName="producto" inverseEntity="Tiendas" syncable="YES"/>
+    </entity>
+    <entity name="Tiendas" representedClassName="Tiendas" syncable="YES">
+        <attribute name="idProducto" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="precio" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tienda" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="producto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Producto" inverseName="tiendas" inverseEntity="Producto" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Compra" positionX="79" positionY="-93" width="128" height="120"/>
+        <element name="ExchangeRate" positionX="-20" positionY="93" width="128" height="60"/>
+        <element name="Producto" positionX="162" positionY="99" width="128" height="120"/>
+        <element name="Tiendas" positionX="376" positionY="86" width="128" height="103"/>
+    </elements>
+</model>
