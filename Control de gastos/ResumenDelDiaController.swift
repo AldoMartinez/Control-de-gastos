@@ -40,7 +40,7 @@ class ResumenDelDiaController: UITableViewController{
             self.compras = []
             let compras = try PersistenceService.context.fetch(fetchRequest)
             for compra in compras {
-                if compra.fecha == self.fecha {
+                if ((compra.fecha?.compare(Date())) != nil){
                     self.compras.append(compra)
                 }
             }

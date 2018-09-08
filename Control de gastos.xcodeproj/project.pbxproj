@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA0F0E60DE9A648FAB0E5B5 /* Pods_Control_de_gastos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62535FE323B0F0BA163021B2 /* Pods_Control_de_gastos.framework */; };
 		4305810E2117BBEF00122008 /* ResumenDelDiaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305810D2117BBEF00122008 /* ResumenDelDiaController.swift */; };
 		430581132117D11E00122008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430581122117D11E00122008 /* Assets.xcassets */; };
 		4306CC28211139DB00383BC8 /* ResumenDiarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4306CC27211139DB00383BC8 /* ResumenDiarioCell.swift */; };
@@ -23,18 +24,21 @@
 		434B41AE212DCE2800604AC0 /* Tiendas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B41AC212DCE2800604AC0 /* Tiendas+CoreDataProperties.swift */; };
 		434B41B02130702C00604AC0 /* ListaDeProductosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B41AF2130702C00604AC0 /* ListaDeProductosController.swift */; };
 		434B9C122137AD1B0034FB62 /* FirstLaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B9C112137AD1B0034FB62 /* FirstLaunchController.swift */; };
+		437DFE7D21406E61000BC7EA /* Compra+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437DFE7B21406E61000BC7EA /* Compra+CoreDataClass.swift */; };
+		437DFE7E21406E61000BC7EA /* Compra+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437DFE7C21406E61000BC7EA /* Compra+CoreDataProperties.swift */; };
 		4389D55A2133471A005F4B4D /* InfoProductoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389D5592133471A005F4B4D /* InfoProductoCell.swift */; };
 		4389D55C21346F4E005F4B4D /* EditarProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389D55B21346F4E005F4B4D /* EditarProductoController.swift */; };
 		43AC7ABA2124E56F00D9FCA0 /* Control_de_gastos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43AC7AB82124E56F00D9FCA0 /* Control_de_gastos.xcdatamodeld */; };
-		43AC7ABD2124E5A600D9FCA0 /* Compra+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC7ABB2124E5A600D9FCA0 /* Compra+CoreDataClass.swift */; };
-		43AC7ABE2124E5A600D9FCA0 /* Compra+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC7ABC2124E5A600D9FCA0 /* Compra+CoreDataProperties.swift */; };
 		43AC7AC02124F7ED00D9FCA0 /* HistorialDeComprasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC7ABF2124F7ED00D9FCA0 /* HistorialDeComprasController.swift */; };
+		43D96EC72142401900870C62 /* EstadisticasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D96EC62142401900870C62 /* EstadisticasController.swift */; };
+		43EA48232142447000F1C4E7 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EA48222142447000F1C4E7 /* Charts.framework */; };
 		43EFEE3E2133349900083A59 /* InformacionProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFEE3D2133349900083A59 /* InformacionProductoController.swift */; };
 		43F6334F2117941200A333D1 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F6334E2117941200A333D1 /* PersistenceService.swift */; };
 		43F633542117953C00A333D1 /* ConvertRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F633532117953C00A333D1 /* ConvertRates.swift */; };
 		43FCF215212A6173007236F9 /* ExchangeRate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCF213212A6173007236F9 /* ExchangeRate+CoreDataClass.swift */; };
 		43FCF216212A6173007236F9 /* ExchangeRate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCF214212A6173007236F9 /* ExchangeRate+CoreDataProperties.swift */; };
 		43FCF218212A6810007236F9 /* HistorialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCF217212A6810007236F9 /* HistorialCell.swift */; };
+		B0D81AB434B9BF5103E5A3DD /* Pods_Control_de_gastosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43DB0EFEFFD48098688998 /* Pods_Control_de_gastosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16C2DE97A8CC48ED1E402931 /* Pods-Control de gastosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Control de gastosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Control de gastosTests/Pods-Control de gastosTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D43DB0EFEFFD48098688998 /* Pods_Control_de_gastosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Control_de_gastosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4305810D2117BBEF00122008 /* ResumenDelDiaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenDelDiaController.swift; sourceTree = "<group>"; };
 		430581122117D11E00122008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4306CC27211139DB00383BC8 /* ResumenDiarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenDiarioCell.swift; sourceTree = "<group>"; };
@@ -68,18 +74,24 @@
 		434B41AC212DCE2800604AC0 /* Tiendas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tiendas+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		434B41AF2130702C00604AC0 /* ListaDeProductosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeProductosController.swift; sourceTree = "<group>"; };
 		434B9C112137AD1B0034FB62 /* FirstLaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchController.swift; sourceTree = "<group>"; };
+		437DFE7B21406E61000BC7EA /* Compra+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Compra+CoreDataClass.swift"; path = "Control de gastos/Compra+CoreDataClass.swift"; sourceTree = "<group>"; };
+		437DFE7C21406E61000BC7EA /* Compra+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Compra+CoreDataProperties.swift"; path = "Control de gastos/Compra+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4389D5592133471A005F4B4D /* InfoProductoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoProductoCell.swift; sourceTree = "<group>"; };
 		4389D55B21346F4E005F4B4D /* EditarProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarProductoController.swift; sourceTree = "<group>"; };
 		43AC7AB92124E56F00D9FCA0 /* Control_de_gastos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Control_de_gastos.xcdatamodel; sourceTree = "<group>"; };
-		43AC7ABB2124E5A600D9FCA0 /* Compra+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Compra+CoreDataClass.swift"; sourceTree = "<group>"; };
-		43AC7ABC2124E5A600D9FCA0 /* Compra+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Compra+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		43AC7ABF2124F7ED00D9FCA0 /* HistorialDeComprasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialDeComprasController.swift; sourceTree = "<group>"; };
+		43D96EC62142401900870C62 /* EstadisticasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadisticasController.swift; sourceTree = "<group>"; };
+		43EA48222142447000F1C4E7 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EFEE3D2133349900083A59 /* InformacionProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacionProductoController.swift; sourceTree = "<group>"; };
 		43F6334E2117941200A333D1 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
 		43F633532117953C00A333D1 /* ConvertRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertRates.swift; sourceTree = "<group>"; };
 		43FCF213212A6173007236F9 /* ExchangeRate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExchangeRate+CoreDataClass.swift"; path = "Control de gastos/ExchangeRate+CoreDataClass.swift"; sourceTree = "<group>"; };
 		43FCF214212A6173007236F9 /* ExchangeRate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExchangeRate+CoreDataProperties.swift"; path = "Control de gastos/ExchangeRate+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		43FCF217212A6810007236F9 /* HistorialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialCell.swift; sourceTree = "<group>"; };
+		62535FE323B0F0BA163021B2 /* Pods_Control_de_gastos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Control_de_gastos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8623E001B83CEB40CD49AFF0 /* Pods-Control de gastos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Control de gastos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Control de gastos/Pods-Control de gastos.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C2A7CC766A015064184C19 /* Pods-Control de gastosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Control de gastosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Control de gastosTests/Pods-Control de gastosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD644EE6798185C4F03A78DF /* Pods-Control de gastos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Control de gastos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Control de gastos/Pods-Control de gastos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43EA48232142447000F1C4E7 /* Charts.framework in Frameworks */,
+				0FA0F0E60DE9A648FAB0E5B5 /* Pods_Control_de_gastos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D81AB434B9BF5103E5A3DD /* Pods_Control_de_gastosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +118,8 @@
 		4307ACA0210FFB89009E50CD = {
 			isa = PBXGroup;
 			children = (
+				437DFE7B21406E61000BC7EA /* Compra+CoreDataClass.swift */,
+				437DFE7C21406E61000BC7EA /* Compra+CoreDataProperties.swift */,
 				434B41AB212DCE2800604AC0 /* Tiendas+CoreDataClass.swift */,
 				434B41AC212DCE2800604AC0 /* Tiendas+CoreDataProperties.swift */,
 				434B41A7212DCE1B00604AC0 /* Producto+CoreDataClass.swift */,
@@ -112,6 +129,8 @@
 				4307ACAB210FFB89009E50CD /* Control de gastos */,
 				4307ACC0210FFB8C009E50CD /* Control de gastosTests */,
 				4307ACAA210FFB89009E50CD /* Products */,
+				9693A2B06A22E432E1DA2076 /* Pods */,
+				EACEE9AF568D6DC5ED4CEEED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,8 +146,6 @@
 		4307ACAB210FFB89009E50CD /* Control de gastos */ = {
 			isa = PBXGroup;
 			children = (
-				43AC7ABB2124E5A600D9FCA0 /* Compra+CoreDataClass.swift */,
-				43AC7ABC2124E5A600D9FCA0 /* Compra+CoreDataProperties.swift */,
 				4307ACAC210FFB89009E50CD /* AppDelegate.swift */,
 				43F6334E2117941200A333D1 /* PersistenceService.swift */,
 				434B9C112137AD1B0034FB62 /* FirstLaunchController.swift */,
@@ -140,6 +157,7 @@
 				434B41AF2130702C00604AC0 /* ListaDeProductosController.swift */,
 				43EFEE3D2133349900083A59 /* InformacionProductoController.swift */,
 				4389D55B21346F4E005F4B4D /* EditarProductoController.swift */,
+				4307ACCC210FFD76009E50CD /* ExchangeRateTableViewController.swift */,
 				4306CC27211139DB00383BC8 /* ResumenDiarioCell.swift */,
 				43FCF217212A6810007236F9 /* HistorialCell.swift */,
 				4389D5592133471A005F4B4D /* InfoProductoCell.swift */,
@@ -147,8 +165,8 @@
 				430581122117D11E00122008 /* Assets.xcassets */,
 				4307ACB5210FFB8C009E50CD /* LaunchScreen.storyboard */,
 				4307ACB8210FFB8C009E50CD /* Info.plist */,
-				4307ACCC210FFD76009E50CD /* ExchangeRateTableViewController.swift */,
 				43AC7AB82124E56F00D9FCA0 /* Control_de_gastos.xcdatamodeld */,
+				43D96EC62142401900870C62 /* EstadisticasController.swift */,
 			);
 			path = "Control de gastos";
 			sourceTree = "<group>";
@@ -162,6 +180,27 @@
 			path = "Control de gastosTests";
 			sourceTree = "<group>";
 		};
+		9693A2B06A22E432E1DA2076 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8623E001B83CEB40CD49AFF0 /* Pods-Control de gastos.debug.xcconfig */,
+				DD644EE6798185C4F03A78DF /* Pods-Control de gastos.release.xcconfig */,
+				B8C2A7CC766A015064184C19 /* Pods-Control de gastosTests.debug.xcconfig */,
+				16C2DE97A8CC48ED1E402931 /* Pods-Control de gastosTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EACEE9AF568D6DC5ED4CEEED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43EA48222142447000F1C4E7 /* Charts.framework */,
+				62535FE323B0F0BA163021B2 /* Pods_Control_de_gastos.framework */,
+				1D43DB0EFEFFD48098688998 /* Pods_Control_de_gastosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4307ACC6210FFB8C009E50CD /* Build configuration list for PBXNativeTarget "Control de gastos" */;
 			buildPhases = (
+				A41B2FBE1AB857F26DB72873 /* [CP] Check Pods Manifest.lock */,
 				4307ACA5210FFB89009E50CD /* Sources */,
 				4307ACA6210FFB89009E50CD /* Frameworks */,
 				4307ACA7210FFB89009E50CD /* Resources */,
+				7F56BF1DABEE6095FA903C1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4307ACC9210FFB8C009E50CD /* Build configuration list for PBXNativeTarget "Control de gastosTests" */;
 			buildPhases = (
+				DB60C014ADDDFBDCCCFC44E4 /* [CP] Check Pods Manifest.lock */,
 				4307ACB9210FFB8C009E50CD /* Sources */,
 				4307ACBA210FFB8C009E50CD /* Frameworks */,
 				4307ACBB210FFB8C009E50CD /* Resources */,
@@ -263,6 +305,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F56BF1DABEE6095FA903C1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Control de gastos/Pods-Control de gastos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Control de gastos/Pods-Control de gastos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A41B2FBE1AB857F26DB72873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Control de gastos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB60C014ADDDFBDCCCFC44E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Control de gastosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4307ACA5210FFB89009E50CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,13 +376,13 @@
 				43FCF215212A6173007236F9 /* ExchangeRate+CoreDataClass.swift in Sources */,
 				43AC7ABA2124E56F00D9FCA0 /* Control_de_gastos.xcdatamodeld in Sources */,
 				4389D55C21346F4E005F4B4D /* EditarProductoController.swift in Sources */,
-				43AC7ABD2124E5A600D9FCA0 /* Compra+CoreDataClass.swift in Sources */,
-				43AC7ABE2124E5A600D9FCA0 /* Compra+CoreDataProperties.swift in Sources */,
+				437DFE7D21406E61000BC7EA /* Compra+CoreDataClass.swift in Sources */,
 				4307ACAD210FFB89009E50CD /* AppDelegate.swift in Sources */,
 				4305810E2117BBEF00122008 /* ResumenDelDiaController.swift in Sources */,
 				434B9C122137AD1B0034FB62 /* FirstLaunchController.swift in Sources */,
 				4306CC28211139DB00383BC8 /* ResumenDiarioCell.swift in Sources */,
 				43F633542117953C00A333D1 /* ConvertRates.swift in Sources */,
+				437DFE7E21406E61000BC7EA /* Compra+CoreDataProperties.swift in Sources */,
 				434B41A9212DCE1B00604AC0 /* Producto+CoreDataClass.swift in Sources */,
 				4307ACCD210FFD76009E50CD /* ExchangeRateTableViewController.swift in Sources */,
 				43FCF218212A6810007236F9 /* HistorialCell.swift in Sources */,
@@ -292,6 +391,7 @@
 				43EFEE3E2133349900083A59 /* InformacionProductoController.swift in Sources */,
 				434B41AA212DCE1B00604AC0 /* Producto+CoreDataProperties.swift in Sources */,
 				434B41AE212DCE2800604AC0 /* Tiendas+CoreDataProperties.swift in Sources */,
+				43D96EC72142401900870C62 /* EstadisticasController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +549,7 @@
 		};
 		4307ACC7210FFB8C009E50CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8623E001B83CEB40CD49AFF0 /* Pods-Control de gastos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +568,7 @@
 		};
 		4307ACC8210FFB8C009E50CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD644EE6798185C4F03A78DF /* Pods-Control de gastos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -485,6 +587,7 @@
 		};
 		4307ACCA210FFB8C009E50CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C2A7CC766A015064184C19 /* Pods-Control de gastosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +609,7 @@
 		};
 		4307ACCB210FFB8C009E50CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C2DE97A8CC48ED1E402931 /* Pods-Control de gastosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

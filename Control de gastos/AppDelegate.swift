@@ -33,6 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let barFont = UIFont(name: "Helvetica", size: 20){
             UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white, NSAttributedStringKey.font : barFont]
         }
+
         return true
     }
 

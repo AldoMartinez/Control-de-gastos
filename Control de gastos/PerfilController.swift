@@ -53,7 +53,7 @@ class PerfilController: UIViewController, UIImagePickerControllerDelegate, UINav
             self.compras = compras
             var sumaTotal = 0.0
             for compra in self.compras {
-                if compra.fecha == self.fecha {
+                if ((compra.fecha?.compare((Date()))) != nil){
                     sumaTotal += compra.precio
                 }
                 

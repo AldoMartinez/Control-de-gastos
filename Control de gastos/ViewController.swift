@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let compra = Compra(context: PersistenceService.context)
         compra.nombre = self.gasto.text!
         compra.precio = precioPesosMxn
-        compra.fecha = self.fecha
+        compra.fecha = Date() as NSDate
         compra.precioOriginal = Double(self.precio.text!)!
         compra.moneda = self.currency
         PersistenceService.saveContext()
@@ -64,7 +64,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(Date())
         if firstRun {
             let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FirstLaunchController")
             self.present(controller, animated: true, completion: nil)

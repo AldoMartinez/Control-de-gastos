@@ -2,7 +2,7 @@
 //  Compra+CoreDataClass.swift
 //  Control de gastos
 //
-//  Created by Aldo Aram Martinez Mireles on 8/15/18.
+//  Created by Aldo Aram Martinez Mireles on 9/5/18.
 //  Copyright © 2018 Aldo Aram Martinez Mireles. All rights reserved.
 //
 //

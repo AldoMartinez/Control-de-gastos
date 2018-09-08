@@ -11,8 +11,8 @@ import CoreData
 
 class HistorialDeComprasController: UITableViewController{
     var compras = [Compra]()
-    var fechas = [String:[Compra]]()
-    var onlyDates = [String]()
+    var fechas = [NSDate:[Compra]]()
+    var onlyDates = [NSDate]()
     var fecha: String!
     let formatter = DateFormatter()
     
@@ -51,7 +51,8 @@ class HistorialDeComprasController: UITableViewController{
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return self.onlyDates[section]
+        formatter.dateStyle = .medium
+        return formatter.string(from: self.onlyDates[section] as Date)
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! HistorialCell
@@ -67,16 +68,11 @@ class HistorialDeComprasController: UITableViewController{
         let label = UILabel(frame: CGRect(x: 15, y: 0, width: tableView.bounds.width - 30, height: 25))
         label.font = UIFont.boldSystemFont(ofSize: 15)
         label.textColor = UIColor.white
-        label.text = self.onlyDates[section]
+        label.text = formatter.string(from: self.onlyDates[section] as Date)
         view.addSubview(label)
         return view
     }
 }
-
-
-
-
-
 
 
 

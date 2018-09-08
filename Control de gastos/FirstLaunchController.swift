@@ -16,26 +16,7 @@ class FirstLaunchController: UIViewController, UITextFieldDelegate {
         
         
         // Do any additional setup after loading the view.
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapView(gesture:)))
-        view.addGestureRecognizer(tapGesture)
-    }
-    func didTapView(gesture: UITapGestureRecognizer) {
-        view.endEditing(true)
-    }
-    
-    func addObservers() {
-        NotificationCenter.default.addObserver(forName: .UIKeyboardWillShow, object: nil, queue: nil) { (notification) in
-            self.keyboardWillShow(notification: notification)
-        }
-        
-        NotificationCenter.default.addObserver(forName: .UIKeyboardWillHide, object: nil, queue: nil) { (notification) in
-            self.keyboardWillHide(notification: notification)
-        }
-    }
-    
-    func keyboardWillShow(notification: Notification) {
-        guard let userInfo = notification.userInfo, let frame = (userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue esle { return }
-        
+
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
